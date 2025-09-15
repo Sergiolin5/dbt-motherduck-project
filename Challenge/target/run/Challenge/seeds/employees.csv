@@ -1,0 +1,11 @@
+
+    
+    
+    truncate table "dev"."main"."employees";
+    -- dbt seed --
+    
+          COPY "dev"."main"."employees" FROM '/Users/sermolin/dbt-project/Challenge/seeds/employees.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

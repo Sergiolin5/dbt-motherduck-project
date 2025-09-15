@@ -1,0 +1,7 @@
+SELECT
+  department,
+  SUM(salary) AS total_salary
+FROM
+  "dev"."main"."employees"
+GROUP BY
+  department

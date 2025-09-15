@@ -1,0 +1,1 @@
+{"_invocation_id": "465a0da0-f45f-48b3-adaf-df8c2714c9bf", "linked": {"0": {"name": "seed.Challenge.employees", "type": "seed", "succ": [1]}, "1": {"name": "model.Challenge.department_salaries", "type": "model"}}, "with_test_edges": {"0": {"name": "seed.Challenge.employees", "type": "seed", "succ": [1]}, "1": {"name": "model.Challenge.department_salaries", "type": "model"}}}

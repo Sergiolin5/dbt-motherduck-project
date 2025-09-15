@@ -1,0 +1,88 @@
+[0m09:05:18.836809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e88f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106efc190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106efc4c0>]}
+
+
+============================== 09:05:18.839689 | a591293f-cef5-4f2d-bc3b-86145b7b06ca ==============================
+[0m09:05:18.839689 [info ] [MainThread]: Running with dbt=1.10.11
+[0m09:05:18.840025 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'empty': 'None', 'partial_parse': 'True', 'write_json': 'True', 'no_print': 'None', 'indirect_selection': 'eager', 'introspect': 'True', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None', 'log_format': 'default', 'warn_error': 'None', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'static_parser': 'True', 'log_path': 'logs', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init', 'profiles_dir': '/Users/sermolin/.dbt'}
+[0m09:05:18.848515 [info ] [MainThread]: Creating dbt configuration folder at /Users/sermolin/.dbt
+[0m09:05:35.933978 [debug] [MainThread]: Starter project path: /Users/sermolin/dbt-project/.venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m09:05:35.945379 [info ] [MainThread]: 
+Your new dbt project "Challenge" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:05:35.946098 [info ] [MainThread]: Setting up your profile.
+[0m14:50:21.592224 [info ] [MainThread]: Profile Challenge written to /Users/sermolin/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:50:21.596748 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 6433.8496, "process_in_blocks": "0", "process_kernel_time": 0.200979, "process_mem_max_rss": "94797824", "process_out_blocks": "0", "process_user_time": 0.833095}
+[0m14:50:21.597505 [debug] [MainThread]: Command `dbt init` succeeded at 14:50:21.597231 after 6433.85 seconds
+[0m14:50:21.598514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e88f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ed81f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ec7430>]}
+[0m14:50:21.599150 [debug] [MainThread]: Flushing usage events
+[0m14:50:24.855743 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:56:49.083859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103b54e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104bc8160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104bc8490>]}
+
+
+============================== 14:56:49.087042 | 76780a10-53da-40ff-a611-d6bd1680c624 ==============================
+[0m14:56:49.087042 [info ] [MainThread]: Running with dbt=1.10.11
+[0m14:56:49.087370 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'indirect_selection': 'eager', 'no_print': 'None', 'log_path': 'logs', 'debug': 'False', 'log_format': 'default', 'warn_error': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'printer_width': '80', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'introspect': 'True', 'empty': 'None', 'quiet': 'False', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'version_check': 'True', 'profiles_dir': '/Users/sermolin/.dbt', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None'}
+[0m14:56:49.096408 [info ] [MainThread]: dbt version: 1.10.11
+[0m14:56:49.096603 [info ] [MainThread]: python version: 3.9.6
+[0m14:56:49.096766 [info ] [MainThread]: python path: /Users/sermolin/dbt-project/.venv/bin/python3
+[0m14:56:49.096920 [info ] [MainThread]: os info: macOS-15.4.1-arm64-arm-64bit
+[0m14:56:49.187184 [info ] [MainThread]: Using profiles dir at /Users/sermolin/.dbt
+[0m14:56:49.187464 [info ] [MainThread]: Using profiles.yml file at /Users/sermolin/.dbt/profiles.yml
+[0m14:56:49.187627 [info ] [MainThread]: Using dbt_project.yml file at /Users/sermolin/dbt-project/dbt_project.yml
+[0m14:56:49.188998 [info ] [MainThread]: adapter type: duckdb
+[0m14:56:49.189201 [info ] [MainThread]: adapter version: 1.9.6
+[0m14:56:49.189376 [info ] [MainThread]: Configuration:
+[0m14:56:49.189539 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:56:49.189689 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:56:49.189837 [info ] [MainThread]: Required dependencies:
+[0m14:56:49.190026 [debug] [MainThread]: Executing "git --help"
+[0m14:56:49.506598 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:56:49.507186 [debug] [MainThread]: STDERR: "b''"
+[0m14:56:49.507403 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:56:49.507593 [info ] [MainThread]: Connection:
+[0m14:56:49.507813 [info ] [MainThread]:   database: dev
+[0m14:56:49.507964 [info ] [MainThread]:   schema: main
+[0m14:56:49.508108 [info ] [MainThread]:   path: dev.duckdb
+[0m14:56:49.508266 [info ] [MainThread]:   config_options: None
+[0m14:56:49.508406 [info ] [MainThread]:   extensions: None
+[0m14:56:49.508549 [info ] [MainThread]:   settings: {}
+[0m14:56:49.508688 [info ] [MainThread]:   external_root: .
+[0m14:56:49.509051 [info ] [MainThread]:   use_credential_provider: None
+[0m14:56:49.509444 [info ] [MainThread]:   attach: None
+[0m14:56:49.509834 [info ] [MainThread]:   filesystems: None
+[0m14:56:49.510225 [info ] [MainThread]:   remote: None
+[0m14:56:49.510619 [info ] [MainThread]:   plugins: None
+[0m14:56:49.511017 [info ] [MainThread]:   disable_transactions: False
+[0m14:56:49.511990 [info ] [MainThread]: Registered adapter: duckdb=1.9.6
+[0m14:56:49.604452 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m14:56:49.631520 [debug] [MainThread]: Using duckdb connection "debug"
+[0m14:56:49.631779 [debug] [MainThread]: On debug: select 1 as id
+[0m14:56:49.631939 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:56:49.685853 [debug] [MainThread]: SQL status: OK in 0.054 seconds
+[0m14:56:49.686484 [debug] [MainThread]: On debug: Close
+[0m14:56:49.686676 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:56:49.686857 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:56:49.687015 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/sermolin/dbt-project/dbt_project.yml> not found
+
+[0m14:56:49.688888 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.6617625, "process_in_blocks": "0", "process_kernel_time": 0.2318, "process_mem_max_rss": "122617856", "process_out_blocks": "0", "process_user_time": 0.925776}
+[0m14:56:49.689150 [debug] [MainThread]: Command `dbt debug` failed at 14:56:49.689090 after 0.66 seconds
+[0m14:56:49.689338 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:56:49.689516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103b54e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10518ac40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d7e100>]}
+[0m14:56:49.689744 [debug] [MainThread]: Flushing usage events
+[0m14:56:50.271886 [debug] [MainThread]: An error was encountered while trying to flush usage events
